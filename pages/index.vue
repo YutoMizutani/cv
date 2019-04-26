@@ -1,38 +1,79 @@
 <template>
   <section class="container">
     <div>
-      <app-logo/>
+      <template>
+        <img src="~/assets/images/ymratc1024.png" width="200">
+      </template>
       <h1 class="title">
-        cv
+        たかね
       </h1>
       <h2 class="subtitle">
-        Nuxt.js project
+        EXPENSIVE_MAN
       </h2>
       <div class="links">
         <a
-          href="https://nuxtjs.org/"
-          target="_blank"
-          class="button--green">Documentation</a>
+          href="/engineer"
+          target="_self"
+          class="button--green">エンジニアとしての私</a>
         <a
-          href="https://github.com/nuxt/nuxt.js"
-          target="_blank"
-          class="button--grey">GitHub</a>
+          href="/research"
+          target="_self"
+          class="button--grey">研究者としての私</a>
+      </div>
+      <br>
+      <div>
+        <ul type="social">
+          <li>
+            <img
+              class="social__image"
+              src="~/assets/images/github.svg"
+              width="32"
+              height="32">
+            <a
+              class="social__text"
+              href="https://github.com/YutoMizutani"
+              target="_blank">YutoMizutani</a>
+          </li>
+          <li>
+            <img
+              class="social__image"
+              src="~/assets/images/twitter.svg"
+              width="32"
+              height="32">
+            <a
+              class="social__text"
+              href="https://twitter.com/EXPENSIVE_MAN"
+              target="_blank">@EXPENSIVE_MAN</a>
+          </li>
+          <li>
+            <img
+              class="social__image"
+              src="~/assets/images/qiita.svg"
+              width="32"
+              height="32">
+            <a
+              class="social__text"
+              href="https://qiita.com/YutoMizutani"
+              target="_blank">@YutoMizutani</a>
+          </li>
+        </ul>
       </div>
     </div>
   </section>
 </template>
 
 <script>
-import AppLogo from '~/components/AppLogo.vue'
-
 export default {
   components: {
-    AppLogo
   }
 }
 </script>
 
 <style>
+ul {
+  list-style: none;
+}
+
 .container {
   min-height: 100vh;
   display: flex;
@@ -61,4 +102,14 @@ export default {
 .links {
   padding-top: 15px;
 }
+
+.social__image {
+  display:inline-block;
+  vertical-align: middle;
+}
+.social__text {
+  display: inline;
+  vertical-align: middle;
+}
+
 </style>

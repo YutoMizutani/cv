@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 54.1 (76490) - https://sketchapp.com -->
+    <title>24 / basic / qiita</title>
+    <desc>Created with Sketch.</desc>
+    <g id="24-/-basic-/-qiita" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group" transform="translate(3.000000, 3.000000)" stroke="#000000">
+            <path d="M15,15 C16,16 17,17 18,18" id="Path-4" stroke-width="2.5"></path>
+            <path d="M9,18 C4.02943725,18 0,13.9705627 0,9 C0,4.02943725 4.02943725,0 9,0 C13.9705627,0 18,4.02943725 18,9 C18,13.9705627 13.9705627,18 9,18 Z M9,16.3636364 C13.0668241,16.3636364 16.3636364,13.0668241 16.3636364,9 C16.3636364,4.93317593 13.0668241,1.63636364 9,1.63636364 C4.93317593,1.63636364 1.63636364,4.93317593 1.63636364,9 C1.63636364,13.0668241 4.93317593,16.3636364 9,16.3636364 Z" id="icon" stroke-width="0.8" fill="#000000"></path>
+        </g>
+    </g>
+</svg>
