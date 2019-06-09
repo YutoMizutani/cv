@@ -16,7 +16,7 @@
           target="_self"
           class="button--green">エンジニアとしての私</a>
         <a
-          href="/research"
+          href="/researcher"
           target="_self"
           class="button--grey">研究者としての私</a>
       </div>
