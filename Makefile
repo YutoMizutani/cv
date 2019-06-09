@@ -3,7 +3,7 @@ run:
 dev:
 	yarn dev
 deploy:
-	npm run generate
+	npm run generate:gh-pages
 	npm run deploy
 lint:
 	npm run lint
